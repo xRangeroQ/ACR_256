@@ -26,6 +26,9 @@ int main()
   cout << CipherText << endl;
   cout << PlainText << endl;
 
+  // Wait Key
+  cin.get();
+
   // Return Function
   return 0;
   
