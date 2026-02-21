@@ -11,8 +11,6 @@
 
 ---
 
----
-
 ## 🚀 Usage
 
 ### 1. Encryption
