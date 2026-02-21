@@ -19,8 +19,8 @@ int main()
   string PlainText;
 
   // Encrypt and Decrypt Methods
-  CipherText = Crypto.Encrypt(Content); // Encrypt (It encrypts the given value and returns an output.)
-  PlainText = Crypto.Decrypt(Content);  // Decrypt (It decrypts the given value and returns an output.)
+  CipherText = Crypto.Encrypt(Content);   // Encrypt (It encrypts the given value and returns an output.)
+  PlainText = Crypto.Decrypt(CipherText); // Decrypt (It decrypts the given value and returns an output.)
 
   // Display
   cout << CipherText << endl;
