@@ -26,7 +26,7 @@ Pass the Base64-encoded package string and the matching key:
 ```
 
 ### 🛠 Compilation (Windows / MinGW)
-For a standalone executable without external dependencies, use the following build command:
+For a standalone executable without external dependencies, ensure you link the following libraries and flags in your compiler settings:
 ```bash
-g++ main.cpp Source/*.cpp -o ACR_256.exe -lssl -lcrypto -static -static-libgcc -static-libstdc++
+-lcrypto -lssl -lws2_32 -lcrypt32 -static
 ```
